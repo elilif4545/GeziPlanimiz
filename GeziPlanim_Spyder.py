@@ -94,3 +94,67 @@ html, body, [data-testid="stAppViewContainer"] {
     font-weight:800 !important;
     box-shadow:0 6px 15px rgba(122,41,72,.12) !important;
 }
+
+.country-button button:hover {
+    background-color:#E88BAA !important;
+    color:white !important;
+    border-color:#C85C82 !important;
+}
+
+/* GÜN BUTONU */
+.day-button button {
+    width:100% !important;
+    min-height:105px !important;
+    background-color:#FCE7EF !important;
+    border:2px solid #E8A9BC !important;
+    border-radius:18px !important;
+    color:#7A2948 !important;
+    font-size:17px !important;
+    font-weight:700 !important;
+    text-align:left !important;
+    padding:18px 22px !important;
+    white-space:pre-line !important;
+    box-shadow:0 4px 12px rgba(122,41,72,.10) !important;
+}
+
+.day-button button:hover {
+    background-color:#E88BAA !important;
+    border-color:#C85C82 !important;
+    color:white !important;
+}
+
+/* GERİ */
+.back-button {
+    margin-bottom:25px;
+}
+
+.back-button button {
+    background-color:#FCE7EF !important;
+    color:#7A2948 !important;
+    border:2px solid #C85C82 !important;
+    border-radius:14px !important;
+    font-weight:700 !important;
+}
+
+.back-button button:hover {
+    background-color:#E88BAA !important;
+    color:white !important;
+}
+
+/* BİLGİ */
+.info-card {
+    background-color:#FCE7EF;
+    border:2px solid #E8A9BC;
+    border-radius:18px;
+    padding:25px;
+    text-align:center;
+    color:#7A2948;
+    margin-top:25px;
+}
+
+/* GÜN BAŞLIĞI */
+.day-header {
+    background:#FCE7EF;
+    border:2px solid #E8A9BC;
+    border-radius:22px;
+    padding:22px 28px;
